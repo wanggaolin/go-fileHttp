@@ -1,22 +1,14 @@
+#### LANGUAGE
+[中文](https://github.com/wanggaolin/go-fileHttp#readme)
+[English](https://github.com/wanggaolin/go-fileHttp/blob/master/doc/readme_zh.md)
 #### 简介
 轻量级文件HTTP服务器
+
+![这是图片](doc/demo.png "Magic Gardens")
 
 #### 安装[for linux]
 ```shell
 
-```
-#### 配置文件
-```yaml
-# cat file.yaml
-ROOT: /tmp/test
-ERROR_LOG: error.log
-ACCESS_LOG: access.log
-LISTEN: 0.0.0.0:9191
-AUTH_USER:
-  user1:
-    PASSWORD: password1
-  user2:
-    PASSWORD: password1
 ```
 
 
@@ -39,14 +31,6 @@ AUTH_USER:
 ##### 例子1:
 ```shell
 curl -H "Content-Type:application/json" http://127.0.0.1:9090/
-```
-
-##### 例子2:
-```shell
 curl -H "Content-Type:application/text" http://127.0.0.1:9090/
-```
-
-##### 例子3:
-```shell
 curl -H "Content-Type:application/text" http://127.0.0.1:9090/
 ```

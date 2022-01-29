@@ -31,14 +31,6 @@
 ##### 例子1:
 ```shell
 curl -H "Content-Type:application/json" http://127.0.0.1:9090/
-```
-
-##### 例子2:
-```shell
 curl -H "Content-Type:application/text" http://127.0.0.1:9090/
-```
-
-##### 例子3:
-```shell
 curl -H "Content-Type:application/text" http://127.0.0.1:9090/
 ```

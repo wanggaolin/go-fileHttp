@@ -1,6 +1,6 @@
 #### LANGUAGE
-[中文](https://github.com/wanggaolin/go-fileHttp#readme)
-[English](https://github.com/wanggaolin/go-fileHttp/blob/master/doc/readme_zh.md)
+[English](https://github.com/wanggaolin/go-fileHttp#readme)
+[中文](https://github.com/wanggaolin/go-fileHttp/blob/master/doc/readme_zh.md)
 
 #### Describe
 Lightweight file sharing system

@@ -1,6 +1,7 @@
 #### LANGUAGE 
-[中文](https://github.com/wanggaolin/go-fileHttp#readme)
-[English](https://github.com/wanggaolin/go-fileHttp/blob/master/doc/readme_zh.md)
+[English](https://github.com/wanggaolin/go-fileHttp#readme)
+[中文](https://github.com/wanggaolin/go-fileHttp/blob/master/doc/readme_zh.md)
+
 #### 简介
 轻量级文件HTTP服务器
 
@@ -8,8 +9,7 @@
 
 #### 安装[for linux]
 ```shell
-cd git clone https://github.com/wanggaolin/go-fileHttp.git && cd go-fileHttp
-./file_http
+cd git clone https://github.com/wanggaolin/go-fileHttp.git && cd go-fileHttp && ./file_http
 ```
 
 

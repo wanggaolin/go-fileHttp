@@ -6,7 +6,7 @@
 
 ```
 #### 配置文件
-```shell
+```yaml
 # cat file.yaml
 ROOT: /tmp/test
 ERROR_LOG: error.log

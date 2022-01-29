@@ -1,5 +1,10 @@
+#### LANGUAGE 
+[中文](https://github.com/wanggaolin/go-fileHttp#readme)
+[English](https://github.com/wanggaolin/go-fileHttp/blob/master/doc/readme_zh.md)
 #### 简介
 轻量级文件HTTP服务器
+
+![这是图片](doc/demo.png "Magic Gardens")
 
 #### 安装[for linux]
 ```shell

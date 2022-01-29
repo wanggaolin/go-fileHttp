@@ -5,7 +5,7 @@
 #### Describe
 Lightweight file sharing system
 
-![这是图片](doc/demo.png "Magic Gardens")
+![demo photo](doc/demo.png "Magic Gardens")
 
 #### Install [for linux]
 ```shell
@@ -25,7 +25,7 @@ cd git clone https://github.com/wanggaolin/go-fileHttp.git && cd go-fileHttp && 
 ### required parameter
 | Header               | Value                           |Describe              |
 |  ----------       | :-----------:                     |   :-----------:      |                    
-| Content-Type      | application/json <br> application/text <br> application/html               |   请求返回类型          |
+| Content-Type      | application/json <br> application/text <br> application/html               |   Defining return types          |
 
 
 #### use/example

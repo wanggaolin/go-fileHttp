@@ -4,11 +4,12 @@
 #### 简介
 轻量级文件HTTP服务器
 
-![这是图片](doc/demo.png "Magic Gardens")
+![demo photo](doc/demo.png "Magic Gardens")
 
 #### 安装[for linux]
 ```shell
-cd git clone https://github.com/wanggaolin/go-fileHttp.git && cd go-fileHttp && ./file_http
+cd git clone https://github.com/wanggaolin/go-fileHttp.git && cd go-fileHttp
+./file_http
 ```
 
 

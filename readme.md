@@ -1,34 +1,35 @@
 #### LANGUAGE
 [中文](https://github.com/wanggaolin/go-fileHttp#readme)
 [English](https://github.com/wanggaolin/go-fileHttp/blob/master/doc/readme_zh.md)
-#### 简介
-轻量级文件HTTP服务器
+
+#### Describe
+Lightweight file sharing system
 
 ![这是图片](doc/demo.png "Magic Gardens")
 
-#### 安装[for linux]
+#### Install [for linux]
 ```shell
-
+cd git clone https://github.com/wanggaolin/go-fileHttp.git && cd go-fileHttp && ./file_http 
 ```
 
 
-#### 默认配置
+#### default config 
 | Key               | Value              |Describe              |
 |  ----------       | :-----------:      |   :-----------:      |                    
-| ROOT_DIR          | $HOME              |   用户家目录           |
-| ERROR_LOG         | error.log          |   日志                |
-| ERROR_LOG         | access.log         |   访问日志                |
-| LISTEN            | 0.0.0.0:9191       |   监听地址             |
+| ROOT_DIR          | $HOME              |   User home directory           |
+| ERROR_LOG         | error.log          |   error log                |
+| ERROR_LOG         | access.log         |   access log               |
+| LISTEN            | 0.0.0.0:9191       |   listen addres             |
 
 
-### 请求头参数
+### required parameter
 | Header               | Value                           |Describe              |
 |  ----------       | :-----------:                     |   :-----------:      |                    
 | Content-Type      | application/json <br> application/text <br> application/html               |   请求返回类型          |
 
 
-#### 使用/例如
-##### 例子1:
+#### use/example
+##### example1:
 ```shell
 curl -H "Content-Type:application/json" http://127.0.0.1:9090/
 curl -H "Content-Type:application/text" http://127.0.0.1:9090/

@@ -7,10 +7,21 @@
 
 ![demo photo](doc/demo.png "Magic Gardens")
 
-#### 安装[for linux]
+#### 安装
+#####[for linux]
 ```shell
-cd git clone https://github.com/wanggaolin/go-fileHttp.git && cd go-fileHttp && ./file_http
+git clone https://github.com/wanggaolin/go-fileHttp.git && cd go-fileHttp && ./file_http
 ```
+#####[for mac]
+```shell
+wget https://github.com/wanggaolin/go-fileHttp/archive/refs/tags/mac-v1.0.tar.gz
+tar -xvf mac-v1.0.tar.gz
+cd go-fileHttp-mac-v1.0   
+./file_http
+```
+
+
+
 
 
 #### 默认配置
@@ -33,5 +44,5 @@ cd git clone https://github.com/wanggaolin/go-fileHttp.git && cd go-fileHttp && 
 ```shell
 curl -H "Content-Type:application/json" http://127.0.0.1:9090/
 curl -H "Content-Type:application/text" http://127.0.0.1:9090/
-curl -H "Content-Type:application/text" http://127.0.0.1:9090/
+curl -H "Content-Type:application/html" http://127.0.0.1:9090/
 ```

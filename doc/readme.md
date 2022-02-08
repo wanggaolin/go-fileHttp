@@ -15,8 +15,8 @@ git clone https://github.com/wanggaolin/go-fileHttp.git && cd go-fileHttp && ./f
 ##### [for mac]
 ```shell
 wget https://github.com/wanggaolin/go-fileHttp/archive/refs/tags/mac-v1.0.tar.gz
-tar -xvf mac-v1.0.tar.gz
-cd go-fileHttp-mac-v1.0   
+tar -xvf mac-v1.1.tar.gz
+cd go-fileHttp-mac-v1.1   
 ./file_http
 ```
 
@@ -38,9 +38,19 @@ cd go-fileHttp-mac-v1.0
 
 
 #### use/example
-##### example1:
+##### Get list of files:
 ```shell
 curl -H "Content-Type:application/json" http://127.0.0.1:9090/
 curl -H "Content-Type:application/text" http://127.0.0.1:9090/
 curl -H "Content-Type:application/html" http://127.0.0.1:9090/
+```
+
+##### Download file:
+```shell
+wget http://127.0.0.1:9090/test.log
+```
+
+##### Upload file:
+```shell
+curl -X POST -F "file=@jquery-3.6.0.min.js" http://127.0.0.1:9090/test/test.log
 ```

@@ -20,11 +20,14 @@ cd go-fileHttp-mac-v1.1
 ./file_http
 ```
 
-
-
-
-
 #### 默认配置
+```yaml
+ROOT: /tmp/
+ERROR_LOG: /tmp/vpn.log
+ACCESS_LOG: /tmp/vpn.log
+LISTEN: 0.0.0.0:9191
+```
+
 | Key               | Value              |Describe              |
 |  ----------       | :-----------:      |   :-----------:      |                    
 | ROOT_DIR          | $HOME              |   用户家目录           |

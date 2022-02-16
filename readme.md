@@ -23,6 +23,13 @@ cd go-fileHttp-mac-v1.1
 
 
 #### default config 
+```yaml
+ROOT: /tmp/
+ERROR_LOG: /tmp/vpn.log
+ACCESS_LOG: /tmp/vpn.log
+LISTEN: 0.0.0.0:8081
+```
+
 | Key               | Value              |Describe              |
 |  ----------       | :-----------:      |   :-----------:      |                    
 | ROOT_DIR          | $HOME              |   User home directory           |

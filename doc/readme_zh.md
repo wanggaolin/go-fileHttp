@@ -25,7 +25,7 @@ cd go-fileHttp-mac-v1.1
 ROOT: /tmp/
 ERROR_LOG: /tmp/vpn.log
 ACCESS_LOG: /tmp/vpn.log
-LISTEN: 0.0.0.0:8081
+LISTEN: 0.0.0.0:9191
 ```
 
 | Key               | Value              |Describe              |

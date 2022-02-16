@@ -1,0 +1,4 @@
+ROOT: /tmp/
+ERROR_LOG: error.log
+ACCESS_LOG: access.log
+LISTEN: 0.0.0.0:9191

@@ -14,9 +14,9 @@ git clone https://github.com/wanggaolin/go-fileHttp.git && cd go-fileHttp && ./f
 ```
 ##### [for mac]
 ```shell
-wget https://github.com/wanggaolin/go-fileHttp/archive/refs/tags/mac-v1.0.tar.gz
-tar -xvf mac-v1.1.tar.gz
-cd go-fileHttp-mac-v1.1   
+wget https://github.com/wanggaolin/go-fileHttp/archive/refs/tags/mac-v1.3.tar.gz
+tar -xvf mac-v1.3.tar.gz
+cd go-fileHttp-mac-v1.3   
 ./file_http
 ```
 

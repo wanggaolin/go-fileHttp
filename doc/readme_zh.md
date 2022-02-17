@@ -32,7 +32,7 @@ LISTEN: 127.0.0.1:9191
 |  ----------       | :-----------:      |   :-----------:      |                    
 | ROOT_DIR          | $HOME              |   用户家目录           |
 | ERROR_LOG         | error.log          |   日志                |
-| ERROR_LOG         | access.log         |   访问日志             |
+| ACCESS_LOG         | access.log         |   访问日志             |
 | LISTEN            | 127.0.0.1:9191     |   监听地址             |
 | PUSH              | true               |   是否允许上传          |
 | SHOW_ALL          | false              |   是否显示隐藏文件或目录  |

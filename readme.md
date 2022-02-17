@@ -27,7 +27,7 @@ cd go-fileHttp-mac-v1.1
 ROOT: /tmp/
 ERROR_LOG: /tmp/vpn.log
 ACCESS_LOG: /tmp/vpn.log
-LISTEN: 0.0.0.0:9191
+LISTEN: 127.0.0.1:9191
 ```
 
 | Key               | Value              |Describe              |
@@ -35,7 +35,7 @@ LISTEN: 0.0.0.0:9191
 | ROOT_DIR          | $HOME              |   User home directory           |
 | ERROR_LOG         | error.log          |   error log                |
 | ERROR_LOG         | access.log         |   access log               |
-| LISTEN            | 0.0.0.0:9191       |   listen addres             |
+| LISTEN            | 127.0.0.1:9191     |   listen addres             |
 
 
 ### required parameter

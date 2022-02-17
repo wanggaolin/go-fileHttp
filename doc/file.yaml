@@ -2,3 +2,6 @@ ROOT: /tmp/
 ERROR_LOG: error.log
 ACCESS_LOG: access.log
 LISTEN: 127.0.0.1:9191
+PUSH: true
+POSH_BACKUP: false
+SHOW_ALL: false

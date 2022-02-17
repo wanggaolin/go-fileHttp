@@ -32,10 +32,13 @@ LISTEN: 127.0.0.1:9191
 
 | Key               | Value              |Describe              |
 |  ----------       | :-----------:      |   :-----------:      |                    
-| ROOT_DIR          | $HOME              |   User home directory           |
-| ERROR_LOG         | error.log          |   error log                |
-| ERROR_LOG         | access.log         |   access log               |
-| LISTEN            | 127.0.0.1:9191     |   listen addres             |
+| ROOT_DIR          | $HOME              |   User home directory    |
+| ERROR_LOG         | error.log          |   error log              |
+| ERROR_LOG         | access.log         |   access log             |
+| LISTEN            | 127.0.0.1:9191     |   listen addres          |
+| PUSH              | true               |   enable  file uploading |
+| SHOW_ALL          | false              |   show hidden files      |
+| POSH_BACKUP       | false              |   ppload the backup file |
 
 
 ### required parameter

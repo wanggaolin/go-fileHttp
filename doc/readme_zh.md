@@ -49,6 +49,7 @@ curl -H "Content-Type:application/html" http://127.0.0.1:9090/
 ##### 下载文件:
 ```shell
 wget http://127.0.0.1:9090/test.log
+curl http://127.0.0.1:9090/test.log --output test.log
 ```
 
 ##### 上传文件:

@@ -25,7 +25,7 @@ cd go-fileHttp-mac-v1.3
 #### default config 
 | Key               | Value              |Describe              |
 |  ----------       | :-----------:      |   :-----------:      |                    
-| ROOT_DIR          | $HOME              |   User home directory    |
+| ROOT_DIR          | $HOME              |   File Management Directory    |
 | ERROR_LOG         | error.log          |   error log              |
 | ACCESS_LOG        | access.log         |   access log             |
 | LISTEN            | 127.0.0.1:9191     |   listen addres          |

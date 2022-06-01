@@ -23,8 +23,8 @@ cd go-fileHttp-mac-v1.3
 #### 默认配置
 | Key               | Value              |Describe              |
 |  ----------       | :-----------:      |   :-----------:      |                    
-| ROOT_DIR          | $HOME              |   用户家目录           |
-| ERROR_LOG         | error.log          |   日志                |
+| ROOT_DIR          | $HOME              |   文件管理目录           |
+| ERROR_LOG         | error.log          |   错误日志                |
 | ACCESS_LOG        | access.log         |   访问日志            |
 | LISTEN            | 127.0.0.1:9191     |   监听地址             |
 | PUSH              | true               |   允许上传             |

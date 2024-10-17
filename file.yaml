@@ -1,7 +1,7 @@
-ROOT: /tmp/
-ERROR_LOG: error.log
-ACCESS_LOG: access.log
-LISTEN: 127.0.0.1:9191
+ROOT: c:\\
+ERROR_LOG: c:\vpn.log
+ACCESS_LOG: c:\vpn.log
+LISTEN: 0.0.0.0:8083
 PUSH: true
-POSH_BACKUP: false
 SHOW_ALL: false
+

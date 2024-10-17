@@ -25,13 +25,13 @@ cd go-fileHttp-mac-v1.3
 #### default config 
 | Key               | Value              |Describe              |
 |  ----------       | :-----------:      |   :-----------:      |                    
-| ROOT_DIR          | $HOME              |   User home directory    |
+| ROOT_DIR          | $HOME              |   File Management Directory    |
 | ERROR_LOG         | error.log          |   error log              |
 | ACCESS_LOG        | access.log         |   access log             |
 | LISTEN            | 127.0.0.1:9191     |   listen addres          |
 | PUSH              | true               |   enable  file uploading |
 | SHOW_ALL          | false              |   show hidden files      |
-| POSH_BACKUP       | false              |   ppload the backup file |
+| POSH_BACKUP       | false              |   upload the backup file |
 
 
 ### required parameter
@@ -51,6 +51,7 @@ curl -H "Content-Type:application/html" http://127.0.0.1:9090/
 ##### Download file:
 ```shell
 wget http://127.0.0.1:9090/test.log
+curl http://127.0.0.1:9090/test.log --output test.log
 ```
 
 ##### Upload file:

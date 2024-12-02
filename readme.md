@@ -12,14 +12,14 @@ Lightweight file sharing system
 ```shell
 git clone https://github.com/wanggaolin/go-fileHttp.git && cd go-fileHttp && ./file_http
 ```
+
 ##### [for mac]
 ```shell
-wget https://github.com/wanggaolin/go-fileHttp/archive/refs/tags/mac-v1.3.tar.gz
-tar -xvf mac-v1.3.tar.gz
-cd go-fileHttp-mac-v1.3   
+wget https://github.com/wanggaolin/go-fileHttp/archive/refs/tags/mac-v1.4.tar.gz
+tar -xvf mac-v1.4.tar.gz
+cd go-fileHttp-mac-v1.4 
 ./file_http
 ```
-
 
 
 #### default config 
